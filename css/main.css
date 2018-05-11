@@ -1,0 +1,12 @@
+/*  */
+div {
+  background: gray; }
+
+body {
+  font-family: Arial;
+  color: red;
+  font-size: 14px;
+  border-radius: 5px;
+  transform: translateX(40%); }
+
+/* layout */
