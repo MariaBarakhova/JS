@@ -36,14 +36,14 @@ gulp.task('css', function(){
 });
 
 gulp.task('sass', function() {
-    return gulp.src('sass/**/*.scss')
+    return gulp.src('src/sass/**/*.scss')
     .pipe(plumber())
    .pipe (autoprefixer({
        browsers:['last 2 version'],
        casced: false,
    }))
     .pipe(sass())
-    .pipe(gulp.dest('css/'))
+    .pipe(gulp.dest('build/'))
 });
 
 gulp.task('watch', function(){
